@@ -1,15 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Card from "./components/Card.js";
-import data from "./data.json";
+import python from "./data.json";
+import CategoryContainer from "./components/CategoryContainer";
+import CourseContainer from "./components/CoursesContainer";
 
 function App() {
     return (
-        <div className="App">
-            {data["courses"].map((course) => {
-                return <Card course={course}></Card>;
-            })}
-        </div>
+      <div className="App">
+        <header/>
+        <CategoryContainer data={python}></CategoryContainer>
+        <footer/>
+      </div>
     );
 }
 

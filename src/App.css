@@ -1,7 +1,40 @@
+header {
+  height: 100px;
+}
+.category_container {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.category_container .header {
+  font-size: x-large;
+}
+
+.category_container .description {
+  width: 70%;
+  font-weight: lighter;
+}
+
+.category_container .button {
+  border: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 15px;
+  background-color: white;
+  color: rgb(43, 43, 43);
+}
+.category_container .button:hover {
+  cursor: move;
+}
+
+
 .course {
     width: 232px;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
 }
 .course img {
     height: 132px;
@@ -46,4 +79,8 @@
 .course .old_price {
     font-size: small;
     text-decoration: line-through;
+}
+
+footer {
+  height: 200px;
 }
